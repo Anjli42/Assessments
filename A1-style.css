@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    border: 2px solid black;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(215, 230, 231);
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+    text-decoration: double underline;
+}
+
+button {
+    padding: 6px 12px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+
+form {
+    padding: 0 20px;
+}
+
+label {
+    display: inline-block;
+    width: 30%;
+}
+
+label[for=address] {
+    float: left;
+}
+
+textarea {
+    margin: 3px !important;
+
+}
+
+input,
+textarea {
+    width: 60%;
+    padding: 6px 10px;
+    margin: 2px 0;
+    border-radius: 5px;
+}
+
+select {
+    margin: 12px 0;
+}
+
+input[type=radio] {
+    width: 2%;
+    margin: 12px 0;
+}
+
+input[type=checkbox] {
+    width: 2%;
+    margin: 4px 2px;
+}
